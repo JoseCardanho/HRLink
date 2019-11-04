@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SkillsWorkflow.Integration.Api.Models</name>
+    </assembly>
+    <members>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.Action">
+            <summary>
+            Document action executed
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.Id">
+            <summary>
+            Job id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.Number">
+            <summary>
+            Job number
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.Name">
+            <summary>
+            Job title
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.CompanyCode">
+            <summary>
+            Job company's code
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.DepartmentExternalId">
+            <summary>
+            Job department's external system id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.JobTypeCode">
+            <summary>
+            Job type code
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.JobTypeId">
+            <summary>
+            Job type id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.ProductExternalId">
+            <summary>
+            Job product's external system id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.EntryDate">
+            <summary>
+            Job entry date
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.AgreedDate">
+            <summary>
+            Agreed date
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.RequestedDate">
+            <summary>
+            Requested date
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.EntryDateUtc">
+            <summary>
+            Job entry date
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.AgreedDateUtc">
+            <summary>
+            Agreed date
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.RequestedDateUtc">
+            <summary>
+            Requested date
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.Description">
+            <summary>
+            Job description text
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.ExternalId">
+            <summary>
+            Job's external system id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.ExternalError">
+            <summary>
+            Last error when integrationt this job
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.Version">
+            <summary>
+            Job current version
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.DocumentStateId">
+            <summary>
+            Job document state id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.DivisionId">
+            <summary>
+            Job division id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.DepartmentId">
+            <summary>
+            Job department id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.CommercialClientId">
+            <summary>
+            Job commercial client id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.ProductId">
+            <summary>
+            Job product id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.ProjectId">
+            <summary>
+            Job project id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.StatusName">
+            <summary>
+            Job status name
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.StatusLocalizedName">
+            <summary>
+            Job status localized name
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.WorkflowId">
+            <summary>
+            Job workflow id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.CreatedById">
+            <summary>
+            Job created by id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.JobDto.ToIntegrate">
+            <summary>
+            Job is marked to integrate
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.SynchronizeDocumentLogModel.XmlArguments">
+            <summary>
+            Overload XmlArguments
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.SynchronizeDocumentLogModel.Delete">
+            <summary>
+            Delete synchronize document if true
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.CompanyId">
+            <summary>
+            Timesheet company id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.CommercialClientId">
+            <summary>
+            Client id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.BrandId">
+            <summary>
+            Brand id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.CommercialProductId">
+            <summary>
+            Product id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.ContractId">
+            <summary>
+            Contract id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.ProjectId">
+            <summary>
+            Project id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.EstimateId">
+            <summary>
+            Estimate id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.WorkTypeId">
+            <summary>
+            Type of work id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.JobId">
+            <summary>
+            Job id
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.CreatedById">
+            <summary>
+            User that the time entry belongs to
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.Date">
+            <summary>
+            Timesheet date
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.Order">
+            <summary>
+            DEPRECATED
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.DurationHours">
+            <summary>
+            How many hours
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.DurationMinutes">
+            <summary>
+            How many minutes
+            </summary>
+        </member>
+        <member name="P:SkillsWorkflow.Integration.Api.Models.TimesheetPostModel.RealCreatedById">
+            <summary>
+            User that creates the time entry
+            </summary>        
+        </member>
+    </members>
+</doc>
